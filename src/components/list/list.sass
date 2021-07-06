@@ -1,0 +1,40 @@
+@use '../../base'
+
+$primary: #709fdc
+$base: #071739
+
+.main
+  padding-top: 20px
+
+.price-filters
+  padding-top: 20px
+  text-align: center
+  .row
+    margin-top: 16px
+  .input-accent
+    display: flex
+    font-size: 14px
+    padding: 5px 5px
+    background-color: rgba(0,0,0,0)
+    border-radius: 6px
+    border: 1.5px solid base.$text-accent
+    color: base.$text-accent
+    input
+      background-color: rgba(0,0,0,0)
+      border: none
+      padding: 0 10px
+      width: 65%
+
+    input:focus
+      outline: none
+.min-max-slider
+  position: relative
+  input
+    cursor: pointer
+    position: absolute
+    -webkit-appearance: none
+    outline: none!important
+    background: transparent
+
+
+

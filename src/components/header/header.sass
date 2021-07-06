@@ -1,0 +1,61 @@
+@use '../../base'
+
+header
+  margin-top: 10px
+
+.column-1
+  max-width: 40px
+  padding: 13px 10px 1px 10px
+  font-size: 21px
+  color: #4D2392 !important
+
+.column-2
+  max-width: 100px
+  padding: 8px
+
+  img
+    width: 70px
+
+.column-3
+  display: flex
+
+  input
+    border: none
+    background: rgba(0, 0, 0, 0)
+    margin: 0 10px
+    flex-grow: 1
+
+  input:focus
+    outline: none
+    border: none
+
+  .searchbar
+    display: flex
+    background: base.$light-grey-background
+    height: 35px
+    padding: 5px 10px
+    border-radius: 20px
+    margin-top: 5px
+    width: 100%
+  i
+    margin-top: 5px
+    color: base.$text-accent
+
+.column-4
+  max-width: 140px
+  display: flex
+  color: base.$text-accent
+  .tab
+    font-size: 12px
+    text-align: center
+    padding: 5px
+    line-height: 15px
+    transition: 0.3s
+    cursor: pointer
+
+  .tab:hover
+    background-color: base.$light-grey-background
+
+.column-5
+  padding-top: 5px
+  max-width: 150px
